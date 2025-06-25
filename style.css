@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -121,7 +121,6 @@
         flex-direction:column;
         justify-content:center;
 }
-=======
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -238,11 +237,9 @@
         justify-content:center;
 }
 }
-
 @media(max-width: 768px){
     .footer{
         flex-direction:column;
         justify-content:center;
 }
->>>>>>> e25565a1c24ad4de164a2334b32fbd7e4f95aaa8
 }
