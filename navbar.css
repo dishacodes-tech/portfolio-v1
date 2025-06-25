@@ -1,3 +1,4 @@
+
 .navbar{
     background-color:#3E2C41;
     border:none;
@@ -40,3 +41,47 @@
         justify-content:center;
 }
 }
+
+.navbar{
+    background-color:#3E2C41;
+    border:none;
+    color:#C19A6B;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navbar .logo{
+    font-size:17px;
+    font-weight:bold;
+    padding-left:20px;
+}
+
+.navbar ul{
+    list-style: none;
+     display: flex;
+}
+
+ .navbar a{
+    text-decoration: none;
+    color:#FDF6EC;
+}
+.navbar li{
+    margin-left:8px;
+    padding-right:20px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:#C19A6B ;
+    text-decoration: underline;
+}
+
+@media(max-width: 768px){
+    .navbar {
+        flex-direction:column;
+        justify-content:center;
+}
+}
+
