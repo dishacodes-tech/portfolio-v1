@@ -1,0 +1,46 @@
+
+
+.section {
+    color:#2E2E2E;
+    text-align: center;
+    padding:0 40px;
+    height:450px;
+    margin:100px 20px;
+     margin:60px 0;
+     padding: 60px;
+}
+
+.section img {
+    width:300px;
+    height: auto;
+    max-width: 100%;
+    margin:0;
+    border:2px #CBA135 solid;
+    box-shadow:0 3px 4px  #f7ce66 ;
+}
+
+.section p{
+    margin-top:50px;
+}
+
+.section img {
+    transition: transform 0.3s ease-in;
+    transition-property:all;
+    transition-duration:1s;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+    border-radius:40%;
+}
+
+
+@media(max-width: 768px){
+    .section {
+       
+    margin-top:150px;
+    padding:0 40px;
+    margin-bottom:230px;
+}
+}
+
