@@ -1,1 +1,8 @@
 /* Project section touched for git sync..*/
+.section{
+    height:500px;
+    margin-top:75px;
+    margin-bottom:150px;
+    padding:0 30px;
+    text-align: center;
+}
