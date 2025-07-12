@@ -1,10 +1,7 @@
 
 .footer{
-    
     color:#3E2C23 ;
     text-align: center;
-    
-   
 }
 
 @media(max-width: 768px){
@@ -14,20 +11,3 @@
          padding:0 2rem;
 }
 }
-
-
-.footer{
-    color:#3E2C23 ;
-    text-align: center;
-
-}
-
-@media(max-width: 768px){
-    .footer{
-        flex-direction:column;
-        justify-content:center;
-        padding:0 2rem;
-}
-}
-
-
