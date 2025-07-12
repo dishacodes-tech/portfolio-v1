@@ -8,10 +8,10 @@
 
 .section {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 40px;
-  max-width: 1200px;
-  margin:200px;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin:200px 300px;
   margin-bottom:70px;
 }
 

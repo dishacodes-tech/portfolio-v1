@@ -1,9 +1,10 @@
 .header{
     height:40px;
     padding:0px;
-    line-height:1.8em;
+    line-height:2em;
     color:#4A3F35;
     text-align:center;
+    margin:10px 50px;
 }
 
 .animated-text {
