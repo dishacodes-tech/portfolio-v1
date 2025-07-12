@@ -1,28 +1,33 @@
-.footer {
-  background-color: #3E2C23;
-  color:#A67B5B;
-  padding: 40px 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-}
-
+/* === Section Layout === */
 .section {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
   max-width: 1000px;
-  margin:200px 300px;
-  margin-bottom:70px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  background-color: #f9f4ef;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
+/* === Box Styling === */
 .box {
+  color: #2E2E2E;
   font-weight: 600;
-  margin-bottom:15px;
-  color:#2E2E2E;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #3E2C23;
 }
 
 .box ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .box ul li {
@@ -30,48 +35,92 @@
 }
 
 .box ul li a {
-  color:#A67B5B;
+  color: #A67B5B;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
 .box ul li a:hover {
-  color:#df973f;
+  color: #df973f;
 }
 
+/* === Social Icons === */
 .icons {
   display: flex;
-  padding-left:15px;
   gap: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .icons a {
   font-size: 20px;
-  transition: color 0.3s;
+  color: #A67B5B;
+  transition: color 0.3s ease;
 }
 
 .icons a:hover {
-  color:#df973f ;
+  color: #df973f;
 }
 
+/* === Email Info === */
 .box p {
-  margin:20px;
-  font-size:13px;
+  margin: 10px 0;
+  font-size: 14px;
 }
 
 .box a {
-  color:#A67B5B;
+  color: #A67B5B;
   text-decoration: none;
 }
 
-@media(max-width:768px){
-    .section{
-   grid-template-columns:1fr;
-
-}
+.box a:hover {
+  color: #df973f;
 }
 
+/* === Footer === */
+.footer {
+  background-color: #3E2C23;
+  color: #A67B5B;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
 
+/* === Responsive Design === */
+@media (max-width: 1024px) {
+  .section {
+    grid-template-columns: 1fr 1fr;
+    margin: 60px 40px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    grid-template-columns: 1fr;
+    margin: 40px 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+ 
+    .header{
+        margin-top:50px;
+        flex-direction:column;
+        justify-content:center;
+        padding:0 20px;
+        text-align:center;
+        margin-bottom:300px;
+}
+
+}
 
   
