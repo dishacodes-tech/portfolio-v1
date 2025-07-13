@@ -1,45 +1,60 @@
-.container {
-  max-width:900px; 
-  margin: auto;
-}
-
-.container p {
-  line-height: 1.8;
-  font-size: 1.05rem;
-}
-
 .section {
-    color:#2E2E2E;
-    text-align: center;
-    height:500px;
-    margin:80px 0;
-     padding: 60px;
+  color: #2E2E2E;
+  text-align: center;
+  margin: 80px auto;
+  padding: 60px;
+  background: none;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .section img {
-    width:300px;
-    height: auto;
-    max-width: 100%;
-    margin-bottom:30px;
-    border:2px #CBA135 solid;
-    box-shadow:0 3px 4px  #f7ce66 ;
-     transition: transform 0.3s ease-in;
-    transition-property:all;
-    transition-duration:1s;
+  width:100%;
+  max-width:300px ;
+  border: 2px #CBA135 solid;
+  box-shadow: 0 3px 4px #f7ce66;
+  transition: all 1s ease-in;
 }
 
 .section img:hover {
-    transform: scale(1.05);
-    border-radius:40%;
-}
-.section p{
-  margin-bottom:200px;
+  transform: scale(1.05);
+  border-radius: 40%;
 }
 
-@media(max-width: 768px){
-    .section {
-    margin-top:300px;
-    padding:0 40px;
-    margin-bottom:200px;
+.section p {
+  margin: 40px auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 850px;
+  padding: 0 20px;
 }
+
+@media (max-width: 768px) {
+  .section {
+    margin-top: 160px;
+    padding: 40px 20px;
+  }
+
+  .section img {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .section p {
+    font-size: 0.95rem;
+    margin: 30px 0;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    margin-top: 120px;
+    padding: 30px 15px;
+  }
+
+  .section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
 }

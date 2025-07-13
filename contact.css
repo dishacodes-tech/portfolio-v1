@@ -88,10 +88,10 @@
 }
 
 /* === Responsive Design === */
-@media (max-width: 1024px) {
+@media (max-width: 1060px) {
   .section {
-    grid-template-columns: 1fr 1fr;
-    margin: 60px 40px;
+    grid-template-columns:repeat(3,1fr);
+    margin: 170px 40px;
     padding: 30px;
   }
 }
@@ -99,7 +99,7 @@
 @media (max-width: 768px) {
   .section {
     grid-template-columns: 1fr;
-    margin: 40px 20px;
+    margin: 120px 20px;
     padding: 20px;
     gap: 20px;
   }
@@ -120,7 +120,6 @@
         text-align:center;
         margin-bottom:300px;
 }
-
 }
 
   
