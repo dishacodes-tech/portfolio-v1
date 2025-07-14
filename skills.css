@@ -89,7 +89,7 @@
 @media (max-width: 768px) {
   .section {
     margin-top: 200px;
-    margin-bottom: 80px;
+    margin-bottom: 110px;
     padding: 0 15px;
   }
 
@@ -108,12 +108,15 @@
   .box p {
     font-size: 0.9rem;
   }
+  .header{
+    margin-bottom:30px 0;
+  }
 }
 
 @media (max-width: 480px) {
   .section {
     margin-top: 200px;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
   }
 
   .box {
@@ -126,6 +129,10 @@
 
   .box p {
     font-size: 0.85rem;
+  }
+
+  .header{
+    margin-bottom:30px 0;
   }
 }
 
