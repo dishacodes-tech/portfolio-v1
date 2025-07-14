@@ -110,6 +110,11 @@
   .header{
     margin-bottom:30px 0;
   }
+  .box:hover {
+  transform: scale(1.0025);
+  background: #A67B5B;
+  color: #fff;
+}
 }
 
 @media (max-width: 480px) {
@@ -133,5 +138,10 @@
   .header{
     margin-bottom:30px 0;
   }
+  .box:hover {
+  transform: scale(1.0025);
+  background: #A67B5B;
+  color: #fff;
+}
 }
 
