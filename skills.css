@@ -3,10 +3,7 @@
   margin-bottom: 100px;
   padding: 0 30px;
   text-align: center;
-}
-
-.container {
-  max-width: 1200px;
+   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -88,7 +85,7 @@
 
 @media (max-width: 768px) {
   .section {
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 110px;
     padding: 0 15px;
   }
@@ -115,7 +112,7 @@
 
 @media (max-width: 480px) {
   .section {
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 150px;
   }
 
