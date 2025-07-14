@@ -37,7 +37,7 @@
 
   .section img {
     width: 80%;
-    margin: 30px auto;
+    margin: 80px auto;
   }
 
   .section p {
@@ -57,6 +57,10 @@
   .section p {
     font-size: 0.9rem;
     line-height: 1.6;
+  }
+   .section img {
+    width: 80%;
+    margin: 80px auto;
   }
 }
 
