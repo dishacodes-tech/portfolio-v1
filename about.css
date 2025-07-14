@@ -22,7 +22,7 @@
 @media (max-width: 480px) {
   .section {
     margin: 40px 0;
-    padding: 30px 6vw;
+    padding: 40px 8vw;
   }
 
   .container p {
@@ -35,7 +35,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .section {
     margin: 60px 0;
-    padding: 40px 8vw;
+    padding: 60px 10vw;
   }
 
   .container p {
