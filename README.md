@@ -1,42 +1,29 @@
-# 🌐 Portfolio v1
+🌐 Portfolio v1
+This is my first personal portfolio website, built entirely using HTML and CSS. It highlights my projects, skills, and contact information. Designed from scratch with a clean, responsive, and modular structure — no templates used.
 
-This is my first personal portfolio website built using HTML and CSS. 
-It highlights my projects, skills, and contact information. 
-Designed from scratch with a clean and modular structure — no templates used.
+🖥️ Live Demo
+🔗 View Portfolio Here
 
+✨ Features
+Fully responsive layout
 
+Clean and consistent design across all pages
 
-## 🗕️ Live Demo
+Modular CSS for each section (navbar, footer, etc.)
 
-👉 **View Portfolio Here**: https://my-project-portfoliov1.netlify.app
+Contact page with working form
 
+Projects page to showcase work
 
-## ✨ Features
-
-* Fully responsive layout
-* Clean and consistent design across all pages
-* Modular CSS for each section (navbar, footer, etc.)
-* Contact page with form
-* Projects page to showcase work
-
-
-
-## 👩‍💻 Author
-
+👩‍💻 Author
 Disha
 
-GitHub: https://github.com/dishacodes-tech
+GitHub: dishacodes-tech
 
-Linkedin:https://www.linkedin.com/in/disha-mahajan-9085abc/
+LinkedIn: Disha Mahajan
 
+💬 Feedback
+Feel free to open issues or suggest improvements. This is version 1, and I'm continuously learning and enhancing it.
 
-
-## 💬 Feedback
-
-Feel free to open issues or suggest improvements. This is version 1, and I'm continuously learning and improving.
-
-
-## 📌 Note
-
-This is a static site — no backend or frameworks used. Built completely using HTML & CSS from scratch.
-
+📌 Note
+This is a static site — no backend or frameworks used. Built entirely with HTML & CSS from scratch.
