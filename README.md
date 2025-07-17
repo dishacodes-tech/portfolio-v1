@@ -6,36 +6,61 @@ This is my first personal portfolio website built using HTML and CSS. It highlig
 📁 Folder Structure
 
 portfolio-v1/
-│
-├── home.html
-├── about.html
-├── projects.html
-├── contact.html
-├── skills.html
-│
-├── style.css         # main stylesheet
-├── navbar.css
-├── footer.css
-├── body.css
-├── about.css
-├── contact.css
-├── home.css
-├── project.css
-├── skills.css
-│
-├── images/           # all images used in the website
-└── README.md
+ home.html
+ about.html
+ projects.html
+ contact.html
+ skills.html
+ style.css         # main stylesheet
+ navbar.css
+ footer.css
+ body.css
+ about.css
+ contact.css
+ home.css
+ project.css
+skills.css
 
-🚀 How to Run This Portfolio
+images/       # image used in the website
+README.md
 
-Clone this repository
+🚀 How to Run This Portfolio (Step-by-Step)
+
+Step 1: Install Git (if not already installed)
+
+Visit: https://git-scm.com/downloads
+
+Download and install Git for your operating system.
+
+Step 2: Open Terminal or Command Prompt
+
+Windows: Press Win + R, type cmd, and hit Enter.
+
+Mac: Open "Terminal" from Applications.
+
+Linux: Use your system terminal.
+
+Step 3: Clone the Repository
+
+Type the following command and press Enter:
 
 git clone https://github.com/dishacodes-tech/portfolio-v1.git
+
+Step 4: Navigate into the Folder
+
 cd portfolio-v1
 
-Open home.html in your browser
+Step 5: Open the Website in a Browser
 
-Just double-click the file, or right-click and choose "Open with" → your browser. No extra installation is needed.
+Locate the home.html file in the folder.
+
+Double-click on home.html OR
+
+Right-click → Open with → Choose your browser (Chrome, Firefox, Edge, etc.)
+
+That’s it! The portfolio site will now open in your browser.
+
+
 
 ✨ Features
 
@@ -49,15 +74,9 @@ Contact page with form
 
 Projects page to showcase work
 
-📸 Screenshots
-
-Add screenshots here if you'd like (optional but helpful)You can take full-page screenshots of your homepage, about, projects, and contact pages and add them in the images/ folder. Then link like this:
-
-![Home Page](images/DISHA)
-
 👩‍💻 Author
 
-Disha🔗 GitHub Profile
+Disha
 
 💬 Feedback
 
